@@ -18,4 +18,6 @@ def push():
                 print(path)
                     print(folderpath)
                         
-                        
+                            if (path == "" and folderpath == ""):
+                                
+                                
