@@ -40,4 +40,6 @@ def push():
                                                                                                                                                             pg.write("code -r \"" + path + "\" && exit")
                                                                                                                                                                     pg.sleep(0.2)
                                                                                                                                                                             pg.press("enter")
-                                                                                                                                                                            
+                                                                                                                                                                                    pg.sleep(1)
+                                                                                                                                                                                           
+                                                                                                                                                                                           
