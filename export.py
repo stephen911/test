@@ -21,4 +21,5 @@ def push():
                             if (path == "" and folderpath == ""):
                                 
                                         messagebox.showinfo(title="info", message="No directory selected")
-                                        
+                                        elif(folderpath == ""):
+                                            
