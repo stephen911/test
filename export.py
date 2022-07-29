@@ -24,4 +24,6 @@ def push():
                                         elif(folderpath == ""):
                                                     messagebox.showinfo(title="info", message="Please select file path to commit from")
                                                     elif(path == ""):
-                                                        
+                                                                messagebox.showinfo(title="info", message="Please select file to commit")
+                                                                
+                                                                
