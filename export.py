@@ -11,7 +11,7 @@ layout = [[sg.T("")], [sg.Text("Select a file to commit: "), sg.Input(key="") , 
 window = sg.Window('Stedap Commits', layout, icon="sc.ico", size=(600, 200), element_justification="center")
 
 
-# hello best fine good fess finess
+# hello best fine good fess finess pass
 def push():
         path = values["-IN-"]
             folderpath = values["-INI-"]
