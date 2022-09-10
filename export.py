@@ -12,7 +12,7 @@ window = sg.Window('Stedap Commits', layout, icon="sc.ico", size=(600, 200), ele
 
 
 # hello best fine good fess finess pass done best green blue orange good blue green b c d ef g b h g h h don'thr hhh hhg
-def push():bbb hhd hhh hhd bbb hdh
+def push():bbb hhd hhh hhd bbb hdh hhh
         path = values["-IN-"]
             folderpath = values["-INI-"]
                 print(path)
