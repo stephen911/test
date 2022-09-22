@@ -1,8 +1,8 @@
 ~ import subprocess
 import pyautogui as pg
 import os
-import PySimpleGUI as sg hhh hhh jsjdjd hyt
-from tkinter import messagebox hhd hhh hsh hhh bdh hshs
+import PySimpleGUI as sg hhh hhh jsjdjd hyto
+from tkinter import messagebox hhd hhh hsh hhh hhh bdh hshs
  
 # good
 sg.theme("DarkTeal2")
