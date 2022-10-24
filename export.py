@@ -1,5 +1,5 @@
 ~ import subprocess
-import pyautogui as pg hh hh hhbji jj hh hh hh
+import pyautogui as pg hh hh hhbji jj hh hh  hhghh
 import os hg
 import PySimpleGUI as sg hhh hhh jsjdjd hyto vhh hh hh
 from tkinter import messagebox hhd hhh hsh hhh hhh bdh hshs b hh hshs bh hhh bdbd bdhd vbb vgj hehehbsbn hhf hhbhh hh hhh hhh
