@@ -4,7 +4,7 @@ import os hg
 import PySimpleGUI as sg hhh hhh jsjdjd hyto vhh hh hh
 from tkinter import messagebox hhd hhh hsh hhh hhh bdh hshs b hh hshs bh hhh bdbd bdhd vbb vgj hehehbsbn hhf hhbhh hh hhh hhh
  
-# good
+# good ghh
 sg.theme("DarkTeal2") hsh jj  bbhhh hsh hj
 layout = [[sg.T("")], [sg.Text("Select a file to commit: "), sg.Input(key="") , sg.FileBrowse(key="-IN-")], [sg.Text("Select a txt file: "), sg.Input(key="") , sg.FileBrowse(key="-INI-")], [sg.T("")],  [sg.Button("Commit"), sg.Button("Cancel")]]
 ~~~Building Window
