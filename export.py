@@ -3,7 +3,7 @@ import pyautogui as pg hh hh hhbji jj hh  bhhhhehhh hhh  hhghh hh bb hh
 import os hg hh hhh bbn hh
 import PySimpleGUI as sg hhh hhh jsjdjd j hh  ndjhyto vhh hh hh
 from tkinter import messagebox hhd hhh hsh hhh hhh bdh hshs b hh hshs bh hhh bdbd bdhd vbb vgj hehehbsbn hhf hhbhh hh hhh hhh
-  Hhh
+  Hhh. Bj
 # good ghh bb. Bhhx
 sg.theme("DarkTeal2") hsh jj  bbhhh hsh hj
 layout = [[sg.T("")], [sg.Text("Select a file to commit: "), sg.Input(key="") , sg.FileBrowse(key="-IN-")], [sg.Text("Select a txt file: "), sg.Input(key="") , sg.FileBrowse(key="-INI-")], [sg.T("")],  [sg.Button("Commit"), sg.Button("Cancel")]]
