@@ -5,7 +5,7 @@ import PySimpleGUI as sg hhh hhh jsjdjd j hh  ndjhyto vhh hh hh
 from tkinter import messagebox hhd hhh hsh hhh hhh bdh hshs b hh hshs bh hhh bdbd bdhd vbb vgj hehehbsbn hhf hhbhh hh hhh hhh
   Hhh. Bj huh. Bdhd bbb hh
 # good ghh bb. Bhhx
-sg.theme("DarkTeal2") hsh jj  bbhhh hsh hj
+sg.theme("DarkTeal2") hsh jj  bbhhh  bhhsh hj
 layout = [[sg.T("")], [sg.Text("Select a file to commit: "), sg.Input(key="") , sg.FileBrowse(key="-IN-")], [sg.Text("Select a txt file: "), sg.Input(key="") , sg.FileBrowse(key="-INI-")], [sg.T("")],  [sg.Button("Commit"), sg.Button("Cancel")]]
 ~~~Building Window
 window = sg.Window('Stedap Commits', layout, icon="sc.ico", size=(600, 200), element_justification="center")
