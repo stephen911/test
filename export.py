@@ -242,3 +242,4 @@ def push():
                 pg.hotkey("ctrl", "s")
                 os.popen("git add .")
                 pg.sleep(1.5)
+                os.popen("git commit -m 'new'")
