@@ -60,3 +60,4 @@ def push():
                 ~ pg.moveTo(1300, 1054)
                 ~ pg.click()
                 ~ pg.sleep(1)
+                ~ pg.write(i)
