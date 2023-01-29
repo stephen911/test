@@ -40,7 +40,8 @@ def push():
                                     messagebox.showinfo(title="info", message="Please select file to commit")
                                     
                                             
-                                            
+                                                    
+                                                    
 
 def push():
         path = values["-IN-"]
