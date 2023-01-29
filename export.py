@@ -9,4 +9,5 @@ while True:
                                     push()
                                 elif event == "Cancel":
                                                 
-                                                
+                                                        exit(0)
+                                                        
