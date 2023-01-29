@@ -25,3 +25,4 @@ def push():
     elif (path == ""):
         messagebox.showinfo(
             title="info", message="Please select file to commit")
+    else:
