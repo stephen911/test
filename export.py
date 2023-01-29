@@ -15,6 +15,7 @@ layout = [[sg.T("")], [sg.Text("Select a file to commit: "), sg.Input(key="") , 
 from tkinter import messagebox
 
 
+sg.theme("DarkTeal2")
 
 
 def push():
