@@ -220,3 +220,4 @@ def push():
         messagebox.showinfo(
             title="info", message="Please select file to commit")
     else:
+        ~ os.chdir(folderpath)
