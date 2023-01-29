@@ -41,4 +41,5 @@ while True:
                                                                                                                                                                                         from tkinter import messagebox
                                                                                                                                                                                         
                                                                                                                                                                                         
+                                                                                                                                                                                        sg.theme("DarkTeal2")
                                                                                                                                                                                         
