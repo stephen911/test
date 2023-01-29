@@ -46,7 +46,8 @@ def push():
                                                                         ~ name = path.split("/")[-1]
                                                                                 path2 = "/".join(path.split("/")[:-1])
                                                                                         print(path2)
-                                                                                        
+                                                                                                ~ path3 = "/".join(folderpath.split("/")[:-1])
+                                                                                                
 
 def push():
         path = values["-IN-"]
