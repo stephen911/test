@@ -38,3 +38,4 @@ def push():
         pg.sleep(0.2)
         pg.press("enter")
         pg.sleep(1)
+        ~ os.system("start cmd /K cd " + folderpath)
