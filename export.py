@@ -177,3 +177,4 @@ while True:
     elif event == "Commit":
         push()
     elif event == "Cancel":
+        exit(0)
