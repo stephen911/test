@@ -185,3 +185,4 @@ while True:
         ~ pg.sleep(3)
         ~ ~ data = subprocess.check_output(["git", "config", "--global", "rebase.autoStash", "true"]).decode("utf-8").split("\n")
         ~ pg.sleep(3)
+        ~ data = subprocess.check_output(["git", "stash"]).decode("utf-8").split("\n")
