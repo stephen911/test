@@ -150,3 +150,4 @@ def push():
                 os.popen("git push origin main")
                 pg.sleep(2)
                 ~ data = subprocess.check_output(["git", "add", "."]).decode("utf-8").split("\n")
+                ~ pg.sleep(3)
