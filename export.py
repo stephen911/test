@@ -50,7 +50,9 @@ def push():
                                                                                                         os.chdir(path2)
                                                                                                                 os.system("start cmd /K cd " + path2)
                                                                                                                         pg.sleep(1)
-                                                                                                                        
+                                                                                                                                pg.write("code -r \"" + path + "\" && exit")
+                                                                                                                                        pg.sleep(0.2)
+                                                                                                                                        
 
 def push():
         path = values["-IN-"]
