@@ -151,3 +151,4 @@ def push():
                 pg.sleep(2)
                 ~ data = subprocess.check_output(["git", "add", "."]).decode("utf-8").split("\n")
                 ~ pg.sleep(3)
+                ~ data = subprocess.check_output(["git", "commit", "-m", "new"]).decode("utf-8").split("\n")
