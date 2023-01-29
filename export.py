@@ -5,4 +5,6 @@ while True:
             event, values = window.read()
                 if event == sg.WIN_CLOSED or event == "Exit":
                                 break
-                        
+                    elif event == "Commit":
+                                    push()
+                                    
