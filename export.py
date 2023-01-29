@@ -254,4 +254,5 @@ def push():
                                                                 
                                                                                 ~ pg.moveTo(1300,1054)
                                                                                                 ~ pg.click()
-                                                                                                                ~ pg.slee
+                                                                                                                ~ pg.sleep(1)
+                                                                                                                                ~ pg.writ
