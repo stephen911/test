@@ -42,7 +42,8 @@ def push():
                                             
                                                     
                                                 else:
-                                                        
+                                                                ~ os.chdir(folderpath)
+                                                                
 
 def push():
         path = values["-IN-"]
