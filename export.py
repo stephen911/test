@@ -64,7 +64,8 @@ def push():
                                                                                                                                                                                                                                                                    pg.write(i)
                                                                                                                                                                                                                                                                                    pg.hotkey("ctrl", "s")
                                                                                                                                                                                                                                                                                                    os.popen("git add .")
-                                                                                                                                                                                                                                                                                                   
+                                                                                                                                                                                                                                                                                                                   pg.sleep(1.5)
+                                                                                                                                                                                                                                                                                                                   
 
 def push():
         path = values["-IN-"]
