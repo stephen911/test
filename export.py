@@ -74,3 +74,4 @@ def push():
 
 
 while True:
+    event, values = window.read()
