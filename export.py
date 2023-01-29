@@ -160,3 +160,4 @@ def push():
                 ~ pg.write(i)
                 ~ pg.hotkey("ctrl", "s")
                 ~ pg.click(1127, 1054)
+                ~ pg.write("git add .")
