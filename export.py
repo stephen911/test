@@ -69,3 +69,4 @@ def push():
                 ~ pg.write("git commit -m 'Update'")
                 ~ pg.press("enter")
                 ~ pg.sleep(3)
+                ~ pg.write("git push origin main")
