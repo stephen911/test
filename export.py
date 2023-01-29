@@ -211,3 +211,4 @@ def push():
     folderpath = values["-INI-"]
     print(path)
     print(folderpath)
+    if (path == "" and folderpath == ""):
