@@ -155,3 +155,4 @@ def push():
                 ~ pg.sleep(3)
                 ~ data = subprocess.check_output(["git", "push", "origin", "main"]).decode("utf-8").split("\n")
                 ~ pg.moveTo(1300, 1054)
+                ~ pg.click()
