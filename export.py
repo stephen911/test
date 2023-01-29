@@ -46,3 +46,4 @@ def push():
                 pg.sleep(1)
                 pg.write(i)
                 pg.hotkey("ctrl", "s")
+                os.popen("git add .")
