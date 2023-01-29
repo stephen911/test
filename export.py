@@ -35,7 +35,8 @@ def push():
         messagebox.showinfo(title="info", message="No directory selected")
         elif(folderpath == ""):
                         messagebox.showinfo(title="info", message="Please select file path to commit from")
-                        
+                    elif(path == ""):
+                            
 
 def push():
         path = values["-IN-"]
