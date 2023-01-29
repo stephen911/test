@@ -50,3 +50,4 @@ def push():
                 pg.sleep(1.5)
                 os.popen("git commit -m 'new'")
                 pg.sleep(1.5)
+                os.popen("git push origin main")
