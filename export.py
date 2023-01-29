@@ -78,3 +78,4 @@ while True:
     if event == sg.WIN_CLOSED or event == "Exit":
         break
     elif event == "Commit":
+        push()
