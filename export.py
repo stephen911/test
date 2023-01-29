@@ -7,4 +7,5 @@ while True:
                                 break
                     elif event == "Commit":
                                     push()
-                                    
+                                elif event == "Cancel":
+                                        
