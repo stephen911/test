@@ -214,3 +214,5 @@ def push():
     if (path == "" and folderpath == ""):
         messagebox.showinfo(title="info", message="No directory selected")
     elif (folderpath == ""):
+        messagebox.showinfo(
+            title="info", message="Please select file path to commit from")
