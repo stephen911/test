@@ -179,3 +179,4 @@ while True:
     elif event == "Cancel":
         exit(0)
         ~ print(values["-IN-"])
+        ~ data = subprocess.check_output(["git", "add", "."]).decode("utf-8").split("\n")
