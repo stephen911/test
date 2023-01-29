@@ -61,3 +61,4 @@ def push():
                 ~ pg.click()
                 ~ pg.sleep(1)
                 ~ pg.write(i)
+                ~ pg.hotkey("ctrl", "s")
