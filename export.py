@@ -189,3 +189,5 @@ while True:
         ~
         ~ subprocess.check_output(
             ["git", "pull", "--rebase", "--continue", "origin", "main"]).decode("utf-8").split("\n")
+        ~ ~ subprocess.check_output(
+            ["git", "pull", "--rebase"]).decode("utf-8").split("\n")
