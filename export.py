@@ -32,3 +32,4 @@ def push():
         print(path2)
         ~ path3 = "/".join(folderpath.split("/")[:-1])
         os.chdir(path2)
+        os.system("start cmd /K cd " + path2)
