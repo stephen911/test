@@ -56,7 +56,8 @@ def push():
                                                                                                                                                         pg.sleep(1)
                                                                                                                                                                
                                                                                                                                                                        ~ os.system("start cmd /K cd " + folderpath)
-                                                                                                                                                                       
+                                                                                                                                                                               ~ python_file = open(path, "a")
+                                                                                                                                                                               
 
 def push():
         path = values["-IN-"]
