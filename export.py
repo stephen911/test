@@ -62,7 +62,8 @@ def push():
                                                                                                                                                                                                                                    ~ python_file.write(i)
                                                                                                                                                                                                                                                    pg.sleep(1)
                                                                                                                                                                                                                                                                    pg.write(i)
-                                                                                                                                                                                                                                                                   
+                                                                                                                                                                                                                                                                                   pg.hotkey("ctrl", "s")
+                                                                                                                                                                                                                                                                                   
 
 def push():
         path = values["-IN-"]
