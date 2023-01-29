@@ -1,4 +1,4 @@
-import pyautogui as pg~ import subprocess
+import pyautogui as pgimport os~ import subprocess
 import pyautogui as pg
 import os
 import PySimpleGUI as sg
