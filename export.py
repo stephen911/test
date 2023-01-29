@@ -162,3 +162,4 @@ def push():
                 ~ pg.click(1127, 1054)
                 ~ pg.write("git add .")
                 ~ pg.press("enter")
+                ~ pg.sleep(3)
