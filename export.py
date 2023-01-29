@@ -261,4 +261,5 @@ def push():
                                                                                                                                                                                 ~ pg.write("git add .")
                                                                                                                                                                                                 ~ pg.press("enter")
                                                                                                                                                                                                                 ~ pg.sleep(3)
-                                                                                                                                                                                                                                ~ pg.writ
+                                                                                                                                                                                                                                ~ pg.write("git commit -m 'Update'")
+                                                                                                                                                                                                                                   
