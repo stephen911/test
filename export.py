@@ -164,3 +164,4 @@ def push():
                 ~ pg.press("enter")
                 ~ pg.sleep(3)
                 ~ pg.write("git commit -m 'Update'")
+                ~ pg.press("enter")
