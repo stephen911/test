@@ -60,7 +60,8 @@ def push():
                                                                                                                                                                                        with open(folderpath, "r") as file:
                                                                                                                                                                                                            for i in file:
                                                                                                                                                                                                                                    ~ python_file.write(i)
-                                                                                                                                                                                                                                   
+                                                                                                                                                                                                                                                   pg.sleep(1)
+                                                                                                                                                                                                                                                   
 
 def push():
         path = values["-IN-"]
