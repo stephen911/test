@@ -199,3 +199,5 @@ while True:
         ~ data = subprocess.check_output(["git", "push", "origin", "main"]).decode("utf-8").split("\n")
 ~ import subprocess
 sg.theme("DarkTeal2")
+layout = [[sg.T("")], [sg.Text("Select a file to commit: "), sg.Input(key="") , sg.FileBrowse(key="-IN-")], [sg.Text("Select a txt file: "), sg.Input(key="") , sg.FileBrowse(key="-INI-")], [sg.T("")],  [sg.Button("Commit"), sg.Button("Cancel")]]
+~~~
