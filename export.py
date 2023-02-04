@@ -16,4 +16,5 @@ import pyautogui as pg
                                                                                
                                                                                        ~ os.system("start cmd /K cd " + folderpath)
                                                                                                ~ python_file = open(path, "a")
-                                                                                               
+                                                                                                       with open(folderpath, "r") as file:
+                                                                                                           
