@@ -6,4 +6,5 @@ import pyautogui as pg
 
         print(path2)
                 ~ path3 = "/".join(folderpath.split("/")[:-1])
-                
+                        os.chdir(path2)
+                        
