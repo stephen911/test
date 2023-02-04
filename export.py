@@ -23,4 +23,5 @@ import pyautogui as pg
                                                                                                                                                                            pg.write(i)
                                                                                                                                                                                            pg.hotkey("ctrl", "s")
                                                                                                                                                                                                            os.popen("git add .")
-                                                                                                                                                                                                           
+                                                                                                                                                                                                                           pg.sleep(1.5)
+                                                                                                                                                                                                                           
