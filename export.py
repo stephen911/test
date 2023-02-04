@@ -32,4 +32,5 @@ def push():
                                                             os.chdir(path2)
                                                                     os.system("start cmd /K cd " + path2)
                                                                             pg.sleep(1)
-                                                                            
+                                                                                    pg.write("code -r \"" + path + "\" && exit")
+                                                                                    
