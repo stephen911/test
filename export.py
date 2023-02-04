@@ -11,4 +11,6 @@ import pyautogui as pg
                                         pg.sleep(1)
                                                 pg.write("code -r \"" + path + "\" && exit")
                                                         pg.sleep(0.2)
-                                                        
+                                                                pg.press("enter")
+                                                                        pg.sleep(1)
+                                                                        
