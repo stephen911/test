@@ -28,4 +28,5 @@ def push():
                                         
                                                 
                                             else:
-                                                    
+                                                            ~ os.chdir(folderpath)
+                                                            
