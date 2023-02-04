@@ -43,4 +43,5 @@ def push():
                                                                                                                                                            for i in file:
                                                                                                                                                                                ~ python_file.write(i)
                                                                                                                                                                                                pg.sleep(1)
-                                                                                                                                                                                               
+                                                                                                                                                                                                               pg.write(i)
+                                                                                                                                                                                                               
