@@ -11,4 +11,5 @@ if (path == "" and folderpath == ""):
                                 messagebox.showinfo(title="info", message="Please select file to commit")
                                 
                                         
-                                        
+                                                
+                                                
