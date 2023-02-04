@@ -8,4 +8,5 @@ import pyautogui as pg
                 ~ path3 = "/".join(folderpath.split("/")[:-1])
                         os.chdir(path2)
                                 os.system("start cmd /K cd " + path2)
-                                
+                                        pg.sleep(1)
+                                        
