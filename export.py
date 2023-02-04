@@ -13,4 +13,5 @@ if (path == "" and folderpath == ""):
                                         
                                                 
                                             else:
-                                                    
+                                                            ~ os.chdir(folderpath)
+                                                            
