@@ -25,4 +25,6 @@ def push():
         
         else:
                     ~ os.chdir(folderpath)
-                    
+                            ~ name = path.split("/")[-1]
+                                    path2 = "/".join(path.split("/")[:-1])
+                                    
