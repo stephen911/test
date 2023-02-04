@@ -18,4 +18,5 @@ if (path == "" and folderpath == ""):
                                                                             path2 = "/".join(path.split("/")[:-1])
                                                                                     print(path2)
                                                                                             ~ path3 = "/".join(folderpath.split("/")[:-1])
-                                                                                            
+                                                                                                    os.chdir(path2)
+                                                                                                    
