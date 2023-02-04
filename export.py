@@ -18,4 +18,6 @@ import pyautogui as pg
                                                                                                ~ python_file = open(path, "a")
                                                                                                        with open(folderpath, "r") as file:
                                                                                                                        for i in file:
-                                                                                                                           
+                                                                                                                                           ~ python_file.write(i)
+                                                                                                                                                           pg.sleep(1)
+                                                                                                                                                           
