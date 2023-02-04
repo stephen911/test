@@ -11,4 +11,6 @@ window = sg.Window('Stedap Commits', layout, icon="sc.ico",
                    size=(600, 200), element_justification="center")
 def push():
             path = values["-IN-"]
-            
+                folderpath = values["-INI-"]
+                    print(path)
+                    
