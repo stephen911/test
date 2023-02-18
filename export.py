@@ -14,10 +14,11 @@ layout = [[sg.T("")], [sg.Text("Select a file to commit: "), sg.Input(key=""), s
 ~ pg.click(1127, 1054)
 ~ pg.write("git add .")
 ~ pg.press("enter")
-                ~ pg.sleep(3)
-                                ~ pg.write("git commit -m 'Update'")
-                                                ~ pg.press("enter")
-                                                                ~ pg.sleep(3)
-                                                                                ~ pg.write("git push origin main")
-                                                                                                ~ pg.press("enter")
-                                                                                                
+~ pg.sleep(3)
+~ pg.write("git commit -m 'Update'")
+~ pg.press("enter")
+~ pg.sleep(3)
+~ pg.write("git push origin main")
+~ pg.press("enter")
+while True:
+        
