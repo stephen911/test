@@ -47,4 +47,5 @@ while True:
                                                                                                                                         ~ subprocess.check_output(["git", "stash", "pop"]).decode("utf-8").split("\n")
                                                                                                                                                 ~
                                                                                                                                                         ~
-                                                                                                                                                        
+                                                                                                                                                                ~ pg.sleep(3)
+                                                                                                                                                                
