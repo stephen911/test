@@ -41,4 +41,6 @@ while True:
                                                                                         ~ ~ data = subprocess.check_output(["git", "config", "--global", "rebase.autoStash", "true"]).decode("utf-8").split("\n")
                                                                                                 ~ pg.sleep(3)
                                                                                                         ~ data = subprocess.check_output(["git", "stash"]).decode("utf-8").split("\n")
-                                                                                                        
+                                                                                                                ~
+                                                                                                                        ~ subprocess.check_output(["git", "pull", "--rebase", "--continue", "origin", "main"]).decode("utf-8").split("\n")
+                                                                                                                        
