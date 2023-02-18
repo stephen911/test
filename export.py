@@ -74,3 +74,5 @@ while True:
                                                                                                                                                                                                     
                                                                                                                                                                                                         if (path == "" and folderpath == ""):
                                                                                                                                                                                                                 
+                                                                                                                                                                                                                        messagebox.showinfo(title="info", message="No directory selected")
+                                                                                                                                                                                                                        
