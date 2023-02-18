@@ -7,10 +7,12 @@ sg.theme("DarkTeal2")
 layout = [[sg.T("")], [sg.Text("Select a file to commit: "), sg.Input(key=""), sg.FileBrowse(key="-IN-")], [sg.Text(
     "Select a txt file: "), sg.Input(key=""), sg.FileBrowse(key="-INI-")], [sg.T("")],  [sg.Button("Commit"), sg.Button("Cancel")]]
 ~~~Building Window
-                ~ pg.click()
-                                ~ pg.sleep(1)
-                                                ~ pg.write(i)
-                                                                ~ pg.hotkey("ctrl", "s")
-                                                                                ~ pg.click(1127,1054)
-                                                                                                ~ pg.write("git add .")
-                                                                                                
+~ pg.click()
+~ pg.sleep(1)
+~ pg.write(i)
+~ pg.hotkey("ctrl", "s")
+~ pg.click(1127, 1054)
+~ pg.write("git add .")
+~ pg.press("enter")
+                ~ pg.sleep(3)
+                
