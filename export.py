@@ -35,4 +35,5 @@ while True:
                                                 
                                                 
                                                         ~ data = subprocess.check_output(["git", "add", "."]).decode("utf-8").split("\n")
-                                                        
+                                                                ~ pg.sleep(3)
+                                                                
