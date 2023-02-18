@@ -8,4 +8,5 @@ layout = [[sg.T("")], [sg.Text("Select a file to commit: "), sg.Input(key=""), s
     "Select a txt file: "), sg.Input(key=""), sg.FileBrowse(key="-INI-")], [sg.T("")],  [sg.Button("Commit"), sg.Button("Cancel")]]
 ~~~Building Window
                 ~ pg.click()
-                
+                                ~ pg.sleep(1)
+                                
