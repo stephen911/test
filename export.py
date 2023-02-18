@@ -22,4 +22,5 @@ layout = [[sg.T("")], [sg.Text("Select a file to commit: "), sg.Input(key=""), s
 ~ pg.press("enter")
 while True:
             event, values = window.read()
-            
+                if event == sg.WIN_CLOSED or event == "Exit":
+                        
