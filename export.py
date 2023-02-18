@@ -72,4 +72,5 @@ while True:
                                                                                                                                                                                             print(path)
                                                                                                                                                                                                 print(folderpath)
                                                                                                                                                                                                     
-                                                                                                                                                                                                    
+                                                                                                                                                                                                        if (path == "" and folderpath == ""):
+                                                                                                                                                                                                                
