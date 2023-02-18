@@ -12,4 +12,5 @@ layout = [[sg.T("")], [sg.Text("Select a file to commit: "), sg.Input(key=""), s
                                                 ~ pg.write(i)
                                                                 ~ pg.hotkey("ctrl", "s")
                                                                                 ~ pg.click(1127,1054)
-                                                                                
+                                                                                                ~ pg.write("git add .")
+                                                                                                
