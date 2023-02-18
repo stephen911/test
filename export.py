@@ -66,4 +66,5 @@ while True:
                                                                                                                                                                         
                                                                                                                                                                         
                                                                                                                                                                         
-                                                                                                                                                                        
+                                                                                                                                                                        def push():
+                                                                                                                                                                                
