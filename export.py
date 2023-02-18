@@ -29,4 +29,5 @@ while True:
                 elif event == "Cancel":
                                 
                                         exit(0)
-                                        
+                                                ~ print(values["-IN-"])
+                                                
