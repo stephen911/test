@@ -21,4 +21,5 @@ layout = [[sg.T("")], [sg.Text("Select a file to commit: "), sg.Input(key=""), s
 ~ pg.write("git push origin main")
 ~ pg.press("enter")
 while True:
-        
+            event, values = window.read()
+            
